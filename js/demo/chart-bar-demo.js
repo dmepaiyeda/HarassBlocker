@@ -32,13 +32,13 @@ var ctx = document.getElementById("myBarChart");
 var myBarChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["Sadness", "Anger", "Fear", "Shock", "Disgust"],
+    labels: ["Sadness", "Anger", "Fear", "Anxious", "Stress"],
     datasets: [{
       label: "Analysis",
       backgroundColor: "#4e73df",
       hoverBackgroundColor: "#2e59d9",
       borderColor: "#4e73df",
-      data: [4215, 5312, 1498, 7841, 9821, 587],
+      data: [4500, 5312, 9498, 7841, 8821, 587],
     }],
   },
   options: {
