@@ -1,4 +1,4 @@
-## About HarassBlocker
+## HarassBlocker
 
 ## About
 
